@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 #
 # The catalogue, in the two halves a host actually reasons about.
 #

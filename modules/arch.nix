@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 #
 # The system-manager backend: publish the pacman/AUR names for the host's own reconciler, and
 # install from nixpkgs ONLY the entries Arch has nothing for at all.

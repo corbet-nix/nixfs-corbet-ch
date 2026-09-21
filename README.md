@@ -18,7 +18,7 @@ discover which tools are missing at the exact moment you need them.
 
 ```nix
 {
-  inputs.nixfs.url = "github:julian-corbet/nixfs-corbet-ch";
+  inputs.nixfs.url = "github:corbet-nix/nixfs-corbet-ch";
 }
 ```
 
@@ -247,3 +247,7 @@ nixfs installs tools. It does not mount anything, export anything, scrub
 anything, or watch anything: mounting is native `fileSystems`, sharing belongs to
 the NFS/CIFS layer, and periodic scrubs belong to whatever owns the pool. This is
 the userland you need in your hands, and nothing else.
+
+## Licence
+
+Outbound licence is `MIT OR Apache-2.0`. See `LICENSE-MIT` and `LICENSE-APACHE`; every source file carries `SPDX-License-Identifier: MIT OR Apache-2.0`.

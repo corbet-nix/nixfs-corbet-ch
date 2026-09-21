@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 {
   description = "The filesystem, block-layer and recovery toolchain as one declared fact per host -- resolved per platform (nixpkgs on NixOS, pacman/AUR on Arch, nixpkgs only where Arch has nothing) so the tools you reach for when a disk is failing are actually reachable everywhere.";
 

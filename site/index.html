@@ -27,8 +27,8 @@
     <a href="/" class="nav-brand">nixfs</a>
     <div class="nav-links">
       <a href="#tiers" class="nav-anchor">tiers</a>
-      <a href="https://github.com/julian-corbet/nixfs-corbet-ch#readme">Docs</a>
-      <a href="https://github.com/julian-corbet/nixfs-corbet-ch">GitHub</a>
+      <a href="https://github.com/corbet-nix/nixfs-corbet-ch#readme">Docs</a>
+      <a href="https://github.com/corbet-nix/nixfs-corbet-ch">GitHub</a>
       <a href="#install" class="btn-nav">Install</a>
       <details class="nav-family">
         <summary>nix* family</summary>
@@ -59,7 +59,7 @@
     <p class="subtitle">A NixOS module that declares the filesystem, block-layer and recovery toolchain as one fact per host: <code>nixfs.media</code>. NixOS already installs check/repair userland for the filesystems a host <strong>mounts</strong>. Nothing installs userland for the filesystems a host <strong>meets</strong> &mdash; a USB stick handed to it, a disk pulled from a retired machine, an SD card of unknown origin &mdash; and on a host whose own distro is not NixOS, nothing installs either kind. nixfs closes both halves by resolving to nixpkgs everywhere, so the tools you reach for when a disk is failing are pinned and identical no matter which box you're standing at.</p>
     <div class="cta">
       <a href="#install" class="btn btn-primary">Get started</a>
-      <a href="https://github.com/julian-corbet/nixfs-corbet-ch" class="btn btn-secondary">View on GitHub</a>
+      <a href="https://github.com/corbet-nix/nixfs-corbet-ch" class="btn btn-secondary">View on GitHub</a>
     </div>
   </div>
 
@@ -285,7 +285,7 @@ too, since tiers accumulate.</span></code></pre>
     <div class="install-grid">
       <div class="install-method">
         <h3>1. Add the flake input</h3>
-        <pre><code>inputs.nixfs.url = "github:julian-corbet/nixfs-corbet-ch";</code></pre>
+        <pre><code>inputs.nixfs.url = "github:corbet-nix/nixfs-corbet-ch";</code></pre>
       </div>
       <div class="install-method">
         <h3>2. Import and declare</h3>
@@ -306,7 +306,7 @@ nixfs.omit = [ "filesystems.hfs" ];</code></pre>
       <div class="install-method">
         <h3>Policy only, no installer</h3>
         <p>Want <code>nixfs.packageNames</code> without <code>environment.systemPackages</code> being touched, to wire it into something else yourself? Import <code>nixosModules.policy</code> / <code>systemManagerModules.policy</code> instead of <code>.default</code>.</p>
-        <a href="https://github.com/julian-corbet/nixfs-corbet-ch" class="btn btn-primary">View on GitHub</a>
+        <a href="https://github.com/corbet-nix/nixfs-corbet-ch" class="btn btn-primary">View on GitHub</a>
       </div>
     </div>
   </div>
@@ -336,14 +336,14 @@ nixfs.omit = [ "filesystems.hfs" ];</code></pre>
 <footer>
   <div class="container">
     <div class="footer-links">
-      <a href="https://github.com/julian-corbet/nixfs-corbet-ch#readme">Docs</a>
-      <a href="https://github.com/julian-corbet/nixfs-corbet-ch">Source</a>
-      <a href="https://github.com/julian-corbet/nixfs-corbet-ch/tree/main/experiments">Experiments</a>
-      <a href="https://github.com/julian-corbet/nixfs-corbet-ch/tree/main/studies">Studies</a>
-      <a href="https://github.com/julian-corbet/nixfs-corbet-ch/issues">Issues</a>
+      <a href="https://github.com/corbet-nix/nixfs-corbet-ch#readme">Docs</a>
+      <a href="https://github.com/corbet-nix/nixfs-corbet-ch">Source</a>
+      <a href="https://github.com/corbet-nix/nixfs-corbet-ch/tree/main/experiments">Experiments</a>
+      <a href="https://github.com/corbet-nix/nixfs-corbet-ch/tree/main/studies">Studies</a>
+      <a href="https://github.com/corbet-nix/nixfs-corbet-ch/issues">Issues</a>
     </div>
     <p>
-      <a href="https://github.com/julian-corbet/nixfs-corbet-ch/blob/main/LICENSE">MIT</a> &middot;
+      <a href="https://github.com/corbet-nix/nixfs-corbet-ch/blob/main/LICENSE">MIT</a> &middot;
       <a href="https://github.com/julian-corbet">Julian Corbet</a>
     </p>
   </div>
